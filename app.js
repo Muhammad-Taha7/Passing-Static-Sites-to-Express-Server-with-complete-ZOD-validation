@@ -18,7 +18,7 @@ if (!env.success) {
 const app = express();
 
 // ✅ Serve static files
-app.use(express.static('public',"index.html","Style.css"));
+app.use(express.static("index.html","Style.css"));
 
 // optional route (not required)
 app.get('/api', (req, res) => {
